@@ -21,10 +21,20 @@
             "role": "Developer"
         }
     ],
+    "repositories": {
+        "portable-utf8": {
+            "type": "vcs",
+            "url": "https://github.com/menadwork/portable-utf8"
+        },
+        "email-check": {
+            "type": "vcs",
+            "url": "https://github.com/menadwork/email-check"
+        },
+      },
     "require": {
         "php": ">=5.3.3",
-        "voku/email-check": "~1.1",
-        "voku/portable-utf8": "~3.1"
+        "email-check": "~1.1",
+        "portable-utf8": "~3.1"
     },
     "require-dev": {
         "mockery/mockery": "~0.9.1",
